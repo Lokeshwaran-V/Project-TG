@@ -1,0 +1,93 @@
+/* Adjustments for the tick button */
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 8px; /* Adjust top position */
+  right: 8px; /* Adjust right position */
+  font-size: 1.2rem;
+  color: #fff; /* Set color to white */
+}
+
+/* Adjustments for the alert message box */
+.alert {
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the alert horizontally */
+  text-align: center; /* Center the text */
+  padding: 8px 16px; /* Adjust padding */
+  border-radius: 4px; /* Add border radius */
+  margin-top: 20px; /* Adjust margin top */
+  position: relative; /* Set position to relative */
+  padding-right: 40px; /* Adjust padding to make space for the button */
+}
+
+.alert-warning {
+  background-color: #ffcdd2; /* Light red */
+  color: #d32f2f; /* Dark red */
+  border: 1px solid #f44336; /* Red border */
+}
+
+.alert-success {
+  background-color: #c8e6c9; /* Light green */
+  color: #1b5e20; /* Dark green */
+  border: 1px solid #81c784; /* Green border */
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 430px;
+}
+
+.login{
+  border: 2px solid #001f3f;
+  border-radius: 10px; 
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.form {
+  padding: 2rem;
+}
+
+header{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+form input[type=text], 
+input[type=password], 
+form input[type=submit]{
+  height: 60px;
+  width: 90%;
+  padding: 0 15px;
+  font-size: 17px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #777777;
+  border-radius: 6px;
+  outline: none;
+}
+form input[type=submit]{
+  width: 100%;
+  color: #fff;
+  background: #001f3f;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+form input:focus{
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+form input.button:hover {
+  background: #000a16; 
+} 
